@@ -1,0 +1,36 @@
+1} What problem does Auto Layout aim to solve?
+==> Creating interfaces that adapt to multiple screen sizes.
+
+2} How can you update the frames of an element to match its constraints in the Interface Builder? (Select all that apply)
+==> 
+— Click on the warning in the interface builder and choose “Update Frames”
+— Click on the “Resolve Auto Layout issues” button in the bottom right corner of the interface builder and choose “Update Frames"
+— Select the elements and press command-alt-=
+
+3} What causes a layout to be considered ambiguous?
+==> When there are not enough constraints to fully determine where a view should go.
+
+4} Which of the following are components available in the Interface Builder? (select all that apply)
+==>
+— UICollectionView
+— UIButton
+— UISlider
+
+5} What an a control element do that a non-control element cannot?
+==> Trigger an action when an event occurs
+
+6} In what case would you use a UIStackView?
+==> When your layout involves many views forming a line.
+
+7} How does UIStackView layout elements in a stack?
+==> By managing their Auto Layout constraints for you
+
+8} To center a view within its superview, which of the following constraints need to be added? The dash represents a constraint. (Choose all that are required)
+==> view.centerX - superview.centerX
+
+9} To fill a view within its superview, which of the following constraints need to be added? (Choose all that are required)
+==>
+— view.top - superview.top
+— view.trailing - superview.trailing
+— view.leading - superview.leading
+— view.bottom - superview.bottom

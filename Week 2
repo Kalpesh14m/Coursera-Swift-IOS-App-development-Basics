@@ -1,0 +1,29 @@
+1} Which of the following does using a storyboard file simplify? (select all that apply)
+==>
+— Defining the app’s navigation
+— The creation of user interfaces
+— Visualizing the app’s interface
+
+2} What type of events does the Application Delegate class handle?
+==> Application lifecycle events
+
+3} Why is the Scene inside the storyboard a square by default?
+==> To represent all the different screen sizes iOS runs on.
+
+4} Where should you put code that needs to run after a view controller first loads its view?
+==> Inside the viewDidLoad() method
+
+5} Which qualifier allows you to connect properties to Interface Builder elements?
+==> IBOutlet
+
+6} What is the “sender” argument that is passed into the action when a UIButton is tapped?
+==> The button that was tapped
+
+7} How can you connect an outlet to an Interface Builder element? (Choose all that apply)
+==>
+— Hold control and drag from the element to the class implementation
+— Define the outlet property first, right click on the view controller in the interface builder and drag from the circle next to the outlet to the element
+— Drag from the circle next to the outlet property to the element
+
+8} What happens when you set an UIImageView’s image property to nil?
+==> The image is "reset" to the default that was set in the Interface Builder or removed if there was no default.W

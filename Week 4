@@ -1,0 +1,30 @@
+1} Which methods on UIView adds a view as a subview to another view? (select all that apply)
+==>
+— insertSubview(_: aboveSubview:)
+— insertSubview(_: atIndex:)
+— addSubview(_:)
+
+2} When removing a view from the view hierarchy, what happens to the constraints?
+==> It loses all constraints to its superview, siblings views, and other non-child views
+
+3} How would you animate movement of a view?
+==> Call layoutIfNeeded() within the animation block after changing the constraints
+
+4} How is the relationship between a delegating class and its delegate specified?
+==> By assigning the delegate to the delegate property of the delegating class.
+
+5} What does the delegate pattern enable classes to do? (select all that apply)
+==>
+— Delegate away control of interface changes when certain events occur
+— Perform the classes responsibilities without worrying about what the app has to do when events occur
+— Delegate away control of how the class is displayed to the user
+— Delegate away control of what data to display.
+
+6} Why does UITableView have both a delegate and a datasource?
+==> To further separate the responsibilities of the delegate between UI control and data control
+
+7} Why should the presenter of a view controller also be responsible for dismissing it?
+==> Because the view controller does not know how it is being presented and thus cannot always correctly dismiss itself.
+
+8} What would be the best way to implement a standard video-playing component in an app?
+==> By using the system’s Media Player Framework that includes a video player
